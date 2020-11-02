@@ -1,0 +1,185 @@
+<html>
+<head>
+    <style>﻿#region original
+
+    .ui-pageload {
+         height: 100%;
+         width: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: 10000
+    }
+
+    .ui-pageload-c {
+         position: absolute;
+         left: 0;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         margin: auto;
+         width: 250px;
+         height: 250px;
+         text-align: center
+    }
+
+    .ui-pageload-c img {
+         width: 100%
+    }
+
+    .ui-pageload-bg {
+         background: gray;
+         height: 100%;
+         width: 100%
+    }
+
+    .ui-pageload-banner {
+         width: 100%
+    }
+
+    .ui-pageload-error {
+         color: red
+    }
+
+    .ui-pageload-progress {
+         position: relative;
+         width: 64px;
+         height: 64px;
+         margin: 12px auto
+    }
+
+    </style>
+    <style>
+	body
+	{
+		background:gray;
+	}
+         .rectangle{
+              position: relative;
+              width: var(--width);
+              height: var(--height);
+              border-radius: var(--borderRadius);
+              border-style: var(--borderStyle);
+              border-width: var(--borderWidth);
+              border-color: var(--borderColor);
+              background: var(--color);
+              left: var(--right);
+              top: var(--top);
+         }
+
+         body{
+              overflow-y: hidden; /* Hide vertical scrollbar */
+              overflow-x: hidden; /* Hide horizontal scrollbar */
+         }
+
+         @keyframes rectangle1{
+              0%{top: -429px; left: 785px}
+              25%{top: -429px; left: 785px}
+              50%{top: -376px; left: 785px}
+              75%{top:-376px; left: 731px}
+              100%{top:-429px; left: 731px}
+         }
+
+         @keyframes rectangle2{
+              0%{left:731px}
+              25%{left:731px}
+              50%{left:731px}
+              75%{left:731px}
+              100%{left:785px}
+         }
+
+         @keyframes rectangle3{
+              0%{top:-525px;left: 677px}
+              25%{top:-525px;left: 677px}
+              50%{top:-579px;left: 677px}
+              75%{top:-579px;left: 622px}
+              100%{top:-525px;left: 622px}
+         }
+
+         @keyframes rectangle4 {
+              0%{top: -573px;left: 622px}
+              25%{top: -573px;left: 622px}
+              50%{top: -573px;left: 622px}
+              75%{top: -519px;left: 622px}
+              100%{top: -519px;left: 677px}
+         }
+
+         @keyframes rectangle5 {
+              0%{top: -567px;left: 677px}
+              25%{top: -567px;left: 677px}
+              50%{top: -567px;left: 677px}
+              75%{top: -567px;left: 677px}
+              100%{top: -621px;left: 677px}
+         }
+
+         @keyframes rectangle6 {
+              0%{left: 731px}
+              25%{left: 731px}
+              50%{left: 785px}
+              75%{left: 785px}
+              100%{left: 731px}
+         }
+
+         #rectangle1{
+              animation-name: rectangle1;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+              animation-iteration-count:infinite;
+         }
+
+         #rectangle2{
+              animation-name: rectangle2;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+              animation-iteration-count:infinite;
+         }
+
+         #rectangle3{
+              animation-name: rectangle3;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+              animation-iteration-count:infinite;
+         }
+
+         #rectangle4{
+              animation-name: rectangle4;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+              animation-iteration-count:infinite;
+         }
+
+         #rectangle5{
+              animation-name: rectangle5;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+              animation-iteration-count:infinite;
+         }
+
+         #rectangle6{
+              animation-name: rectangle6;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+              animation-iteration-count:infinite;
+         }</style>
+</head>
+<div class="ui-pageload">
+    <div class="ui-pageload-bg"></div>
+</div>
+</div>
+<div class="logo">
+    <div class="Squares">
+        <div id="rectangle1" class="rectangle"
+             style="--width: 44px; --height: 44px; --borderRadius:6px; --borderStyle:solid; --borderWidth:2px; --borderColor: #0000004a; --color:#77AB2E;--right:785px;--top:-429px"></div>
+        <div id="rectangle2" class="rectangle"
+             style="--width: 44px; --height: 44px; --borderRadius:6px; --borderStyle:solid; --borderWidth:2px; --borderColor: #0000004a; --color:#77AB2E;--right:731px;--top:-477px"></div>
+        <div id="rectangle3" class="rectangle"
+             style="--width: 44px; --height: 44px; --borderRadius:6px; --borderStyle:solid; --borderWidth:2px; --borderColor: #0000004a; --color:#77AB2E;--right:677px;--top:-525px"></div>
+        <div id="rectangle4" class="rectangle"
+             style="--width: 44px; --height: 44px; --borderRadius:6px; --borderStyle:solid; --borderWidth:2px; --borderColor: #0000004a; --color:#77AB2E;--right:622px;--top:-573px"></div>
+        <div id="rectangle5" class="rectangle"
+             style="--width: 44px; --height: 44px; --borderRadius:6px; --borderStyle:solid; --borderWidth:2px; --borderColor: #0000004a; --color:#77AB2E;--right:677px;--top:-567px"></div>
+        <div id="rectangle6" class="rectangle"
+             style="--width: 44px; --height: 44px; --borderRadius:6px; --borderStyle:solid; --borderWidth:2px; --borderColor: #0000004a; --color:#77AB2E;--right:731px;--top:-723px"></div>
+    </div>
+</div>
+</html>
